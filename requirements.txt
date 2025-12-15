@@ -1,0 +1,9 @@
+tensorflow>=2.8
+datasets
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+pillow
+tqdm

@@ -23,8 +23,10 @@ This project implements a complete deep learning pipeline for fine-grained food 
 ## 🚀 Quick Start
 
 ### Prerequisites
+Install the project dependencies with pip so the notebooks run with the expected libraries and versions:
+
 ```bash
-pip install tensorflow datasets sklearn matplotlib seaborn pillow tqdm
+pip install -r requirements.txt
 ```
 
 ### Running the Notebook
@@ -38,8 +40,9 @@ pip install tensorflow datasets sklearn matplotlib seaborn pillow tqdm
 ```
 ├── FinalProject.ipynb          # Main project notebook
 ├── Milestone_01.ipynb          # EDA and preprocessing experiments
-├── Milestone_02.ipynb          # Model comparison experiments  
+├── Milestone_02.ipynb          # Model comparison experiments
 ├── README.md                   # This file
+├── requirements.txt            # Python dependencies for notebooks
 ├── .gitignore                  # Git ignore rules
 └── models/                     # Saved model checkpoints (excluded from git)
 ```
